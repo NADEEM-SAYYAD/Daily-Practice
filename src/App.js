@@ -7,6 +7,7 @@ import UeseEffect from './components/UeseEffect'
 import Useref from './components/Useref';
 import Usecallback from './components/Usecallback'
 import BasicForm from './components/BasicForm'
+import BasicForm2 from './components/BasicForm2'
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
           <Useref />
           <Usecallback />
           <BasicForm />
+          <BasicForm2 />
         </CounterContextProvider>
       </NameContextProvider>
     </div>

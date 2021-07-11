@@ -14,9 +14,7 @@ const BasicForm = () => {
                     type="text"
                     name="firstname"
                     id="firstname"
-                    value={firstname}
                     {...bindFirstName}
-                    
                 />
             </div>
             <div>
@@ -25,7 +23,6 @@ const BasicForm = () => {
                     type="text"
                     name="lastname"
                     id="lastname"
-                    value={lastname}
                     {...bindLastName}
                 />
             </div>
